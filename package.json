@@ -2,8 +2,10 @@
   "name": "express-passport-js-project",
   "version": "1.0.0",
   "description": "Node ExpressJS and PassportJS for authentication user during login process using MongoDB Atlas",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start:dev": "node app.js",
+    "start:prod": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,5 +37,8 @@
     "mongoose": "^5.7.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
