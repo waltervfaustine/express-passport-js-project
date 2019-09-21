@@ -1,0 +1,44 @@
+{
+  "name": "express-passport-js-project",
+  "version": "1.0.0",
+  "description": "Node ExpressJS and PassportJS for authentication user during login process using MongoDB Atlas",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "start:prod": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltervfaustine/express-passport-js-project.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Node",
+    "ExpressJS",
+    "PassportJS",
+    "CodeBible",
+    "Cainamist",
+    "Auth"
+  ],
+  "author": "Walter V. Faustine <waltervfaustine@gmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/waltervfaustine/express-passport-js-project/issues"
+  },
+  "homepage": "https://github.com/waltervfaustine/express-passport-js-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.7.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
